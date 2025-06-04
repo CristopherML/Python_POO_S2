@@ -9,15 +9,15 @@ class Persona:
         return f"Hola mi nombres es: {self.nombre} y tengo {self.edad} años"
     
     @classmethod
-    def obtenerespecie(cls);
+    def obtener_especie(cls):
         return f"Todos somos {cls.especie}"
     
     @staticmethod
-    def es_mayor_edad(edad):
+    def es_mayor_de_edad(edad):
         return edad>=18
     
-    persona1=Persona("Alice",30)
-    persona2=Persona("Bob",17)
+    persona1 = Persona("Alice",30)
+    persona2 = Persona("Bob",17)
     
     print(persona1.nombre)
     print(persona2.edad)
